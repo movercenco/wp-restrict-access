@@ -1,0 +1,83 @@
+@font-face {
+    font-family: LubalinGraphStdMedium;
+    src: url('fonts/lubalin-graph-medium-bt-1361504582.ttf');
+}
+@font-face {
+    font-family: LubalinGraphStd Demi;
+    src: url('fonts/LubalinGraphStd-Demi.otf');
+}
+::-webkit-input-placeholder {
+    text-transform: uppercase;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    text-transform: uppercase;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    text-transform: uppercase;
+}
+
+:-ms-input-placeholder {
+    text-transform: uppercase;
+}
+.restrict_access_body{
+    background-color: rgba(1, 1, 1, 0.5);
+}
+.restrict_access_body .restrict_access_container{
+    position: fixed;
+    width: 340px;
+    top: 50%;
+    left: 50%;
+    margin-top: -140px;
+    margin-left: -170px;
+    background: #000000;
+}
+
+.restrict_access_body .restrict_access_container form {
+    padding: 15px;
+    width: 310px;
+    text-align: center;
+}
+
+.restrict_access_body .restrict_access_container form p,.restrict_access_body .restrict_access_container form p a {
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "LubalinGraphStdMedium";
+    text-transform: uppercase;
+}
+.restrict_access_body .restrict_access_container form p.error{
+    color: rgb(218, 169, 169);
+}
+
+.restrict_access_body .restrict_access_container form a:hover {
+    color: #555;
+}
+
+.restrict_access_body .restrict_access_container form input[type=text],
+.restrict_access_body .restrict_access_container form input[type=password]{
+    width: 295px;
+    border: 1px solid #000000;
+    font-family: "LubalinGraphStd Demi";
+    font-weight: bold;
+    line-height: 25px;
+    margin-bottom: 3px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #b7b7b7;
+    background: white;
+}
+
+.restrict_access_body .restrict_access_container form input[type=submit] {
+    border: solid 3px #ffffff;
+    color: #ffffff;
+    background: #000000;
+    margin: 10px auto 0;
+    padding: 8px 15px 4px;
+    font-family: "LubalinGraphStd Demi";
+    text-transform: uppercase;
+    display: block;
+}
+
